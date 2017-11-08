@@ -329,25 +329,23 @@ while i<4100:
 
 while i<4300:
 
-  desync_full(17.14159,5.871)
+  desync_full(17.14159,9.871)
   i=i+1
 
 while i<4400:
 
-  desync_full(19.14159,5.871)
+  desync_full(19.14159,13.871)
   i=i+1
 
 while i<4600:
 
-  desync_full(25.14159,5.871)
+  desync_full(25.14159,15.871)
   i=i+1
 
 while i<5000:
 
-  fqe=4
-  desync_full(31.14159,fqe)
+  desync_full(31.14159,39.237)
   i=i+1
-  fqe=fqe+0.5
 
 end()
     
