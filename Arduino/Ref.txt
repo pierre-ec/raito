@@ -1,0 +1,7 @@
+Références:
+
+librairie digitalWriteFast trouvable ici : 
+
+https://code.google.com/archive/p/digitalwritefast/downloads
+
+http://forum.arduino.cc/index.php?topic=46896.0
