@@ -7,6 +7,9 @@ Led5 = 6, Led6 = 7, Led7 = 8, Led8 = 9, LedCentrale = 11;
 
 const int Bouton1 = 10, Bouton2 = 12;
 
+int compteur1 = 0;
+int compteur2 = 0;
+
 float fq = 1, fqa, fqe, fqac, fqec, taf, tef, frequence, lumen = 0;
 
 void setup() 
@@ -579,15 +582,32 @@ boolean etatBouton2 = digitalRead(Bouton2);
   if (etatBouton1==LOW)
 
       {
-         programme_1();
+
+         compteur1++;
+
+         if (compteur1 == 1)
+         {
+          programme_1();
+          compteur1=0;
+         }
+         
+         
       }
 
   if (etatBouton2==LOW)
 
       {
-         programme_2();
-      }
 
+         compteur2++;
+
+         if (compteur2 == 1)
+         {
+          programme_2();
+          compteur2=0;
+         }
+         
+         
+      }
 
 }
 
