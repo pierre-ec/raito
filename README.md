@@ -34,3 +34,7 @@ Explore quelques possibilités du PWM sur un RasPi, avec le montage suivant :
 - 1 LED centrale 3W [blanc chaud] - 1 TIP122 - port GPIO 12
 
 Crescendo / Fade / Dimmer d'apparence continu
+
+> Random.py
+
+Un programme générant des séquences aléatoires avec la fonction random.randrange(borneinferieure,bornesuperieure,intervalle).
