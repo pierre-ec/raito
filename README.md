@@ -3,11 +3,11 @@
 
 > Programme1.c 
 
-Un programme de contrôle pour Arduino.
+Un programme de contrôle pour Arduino. 8 LED indépendantes + 1 LED centrale. 
 
 > Prog1 + Prog2 + Buttons.c
 
-Deux programmes, contrôlable par bouton physique. Librairie digitalWriteFast.
+Deux programmes, contrôlable par bouton physique. Librairie digitalWriteFast. 8 LED indépendantes + 1 LED centrale. 
 
 Références:
 
@@ -21,16 +21,16 @@ http://forum.arduino.cc/index.php?topic=46896.0
 
 > Interface Graphique v0.1
 
-Une interface graphique pour contrôler la désynchronisation des LED visuellement. La fonction utilisée est desync_full(fqa, fqe).
+Une interface graphique pour contrôler la "désynchronisation" (entre l'allumage et l'extinction) des LED à l'aide de deux sliders. 8 LED indépendantes + 1 LED centrale. 
 
 > Programme1.py
 
-Un programme de contrôle pour le Pi.
+Un programme de contrôle pour le Pi. 8 LED indépendantes + 1 LED centrale. 
 
 > PWM.py
 
-Explore quelques possibilités du PWM sur un RasPi, avec le montage suivant : 
-- 4 LED 10W periphériques [blanc froid]- 1 TIP122 - port GPIO 35
+Explore quelques possibilités du PWM pour contrôler les LED sur un RasPi, avec le montage suivant : 
+- 4 LED 10W periphériques [blanc froid] - 1 TIP122 - port GPIO 35
 - 1 LED centrale 3W [blanc chaud] - 1 TIP122 - port GPIO 12
 
 Crescendo / Fade / Dimmer d'apparence continu
