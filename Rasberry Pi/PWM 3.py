@@ -145,8 +145,8 @@ while i<duree_totale:
         tableau_frequence_start4[compteur_tableau_frequence]=tableau_frequence_start4[compteur_tableau_frequence]+compensation_frequence4
         tableau_dc_start4[compteur_tableau_dc]=tableau_dc_start4[compteur_tableau_dc]+compensation_dc4                
    
-        p1.ChangeFrequency(tableau_frequence_start2[compteur_tableau_frequence])
-        p1.ChangeDutyCycle(tableau_dc_start2[compteur_tableau_dc])
+        p1.ChangeFrequency(tableau_frequence_start1[compteur_tableau_frequence])
+        p1.ChangeDutyCycle(tableau_dc_start1[compteur_tableau_dc])
         
         p2.ChangeFrequency(tableau_frequence_start2[compteur_tableau_frequence])
         p2.ChangeDutyCycle(tableau_dc_start2[compteur_tableau_dc])
